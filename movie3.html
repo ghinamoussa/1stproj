@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Jaws</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #36bcff;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.5;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #292b2c;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        footer {
+            background-color: #36bcff;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+        }
+        .container{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            align-content: center;
+            align-items:center;
+            align-content: center;
+            margin-left:100px;
+        
+            
+        }
+
+        .element{
+            background-color: #36bcff;
+            border-radius: 50px;
+            margin-bottom:50px;
+        }
+        .element:hover{
+            border: 2px solid #36bcff;
+            background-color: #ddd;
+        }
+        .element:hover h1{
+            color:#292b2c;
+        }
+        .element h1{
+            text-align: center;
+            color:#ddd
+        }
+        .element p,ul{
+            opacity:0;
+        }
+        .element:hover p,ul{
+            opacity: 1;
+            text-align: center;
+        }
+        .element ul{
+            opacity: 0;
+        }
+        .element:hover ul{
+            opacity:1;
+            font-size:15px;
+            list-style-type: square;
+        }
+    </style>
+</head>
+<header>
+    <P><center>Jaws</center></P>
+</header>
+<body>
+    <center>
+    <img src="p3.jpeg" alt="Movie 3 Poster" style="width:100vw">
+</center>
+    <p>Description:<br>
+        <div class="container">
+            <div class="element" style="width:300px ;height:450px">
+                <h1>Genre</h1>
+                <p>"Jaws" is a thriller film with elements of horror and adventure.</p>
+            </div>
+            <div class="element" style="width:300px ;height:450px">
+                <h1 style="font-size:30px">Plot Summary</h1>
+                <p>
+                    In "Jaws," directed by Steven Spielberg, a seaside town named Amity Island faces terror as a gigantic great white shark begins to attack beachgoers. Police Chief Martin Brody, marine biologist Matt Hooper, and shark hunter Quint embark on a perilous mission to capture or kill the massive predator before it devours more victims. The film is renowned for its suspenseful storytelling and iconic score.</p>
+            </div>
+            <div class="element" style="width:300px ;height:450px">
+                <h1 style="font-size:30px">Main Characters</h1>
+                <ul>
+                    <li>Chief Martin Brody (Roy Scheider): The police chief of Amity Island tasked with dealing with the shark threat.</li>
+                    <li>Matt Hooper (Richard Dreyfuss): A marine biologist brought in to help deal with the shark problem.</li>
+                    <li>Quint (Robert Shaw): A grizzled and experienced shark hunter hired to eliminate the threat.</li>
+                </ul>
+            </div>
+            <div class="element" style="width:300px ;height:450px">
+                <h1 style="font-size:30px">Keys & Themes</h1>
+                <ul>
+                    <li>Fear of the Unknown: "Jaws" taps into the primal fear of the unknown lurking beneath the surface of the ocean.</li>
+                    <li>Man vs. Nature: The film explores the theme of humans confronting and battling a powerful force of nature in the form of the great white shark.</li>
+                    <li>Heroism and Sacrifice: The characters face danger head-on, showcasing themes of heroism and sacrifice in their attempt to protect the community.</li>
+                </ul>
+            </div>
+            <div class="element" style="width:300px ;height:450px">
+                <h1 style="font-size:30px">Quotes</h1>
+                <p>You're gonna need a bigger boat </p>
+                <br>
+                
+            </div>
+            <div class="element" style="width:300px ;height:450px;">
+                
+                <p style="padding:20px">"Dive into cinematic history with 'Jaws'! Steven Spielberg's masterpiece delivers spine-tingling suspense, iconic scenes, and a battle against nature that you won't forget. Experience the thrill on the big screen—get your tickets now!"</p>
+            </div>
+    </div>
+    
+    
+    </p>
+</body>
+<footer>
+    <p>&copy; 2023 Ghina Moussa.</p>
+</footer>
+</html>
+        
